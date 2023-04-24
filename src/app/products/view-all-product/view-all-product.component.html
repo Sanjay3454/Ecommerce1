@@ -1,0 +1,85 @@
+<div class="container-fluid">
+    <div class="row">
+
+ <div class="col-3 text-center">
+     <a (click)="filter('')" style="text-decoration: none;" >
+        <img style="height: 100px; border-radius: 90px;"  src="https://i.postimg.cc/x8XxBYZF/xiaomi-dual-driver-original-imafpht84fa7fxdj.webp" alt="">
+        <h3>all</h3>
+     </a>
+
+    </div>
+
+    <div (click)="filter(1)" class="col-3 text-center">
+        <a style="text-decoration: none;" >
+           <img style="height: 100px; border-radius: 90px;" src="https://i.postimg.cc/02t7pWsN/original-imaggezq4g7urfhk.webp" alt="">
+           <h3>NeckBand</h3>
+        </a>
+   
+       </div>
+
+
+
+
+       <div class="col-3 text-center">
+        <a style="text-decoration: none;" >
+           <img style="height: 100px; border-radius: 90px;" src="https://i.postimg.cc/rpgfmKXP/download.jpg" alt="">
+           <h3>Buds</h3>
+        </a>
+   
+       </div>
+
+
+
+
+       <div class="col-3 text-center">
+        <a style="text-decoration: none;">
+           <img style="height: 100px; border-radius: 90px;" src="https://i.postimg.cc/NLh4VXm5/original-imagewuzhfbtygzw.webp" alt="">
+           <h3>OverHead</h3>
+        </a>
+   
+       </div>
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <div class="col mb-5" *ngFor=" let i of filterCategory | filter : 'realme ':'productName'">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img style="height: 350px;" class="card-img-top" src="{{i.productImg}}" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">{{i.productName}}</h5>
+                            <!-- Product price-->
+                          {{i.price}}
+                          {{i.description}}
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" routerLink="view-product/{{i.id}}">View</a></div>
+                    </div>
+                </div>
+            </div>
+           
+                    <!-- Product actions-->
+                    <!-- <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                    </div> -->
+                </div>
+            </div>
+            <div>
+        </div>
+    
+</section>
