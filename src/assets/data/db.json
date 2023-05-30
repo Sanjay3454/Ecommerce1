@@ -1,88 +1,43 @@
 {
-    "products": [
-      {
-        "id": 1,
-
-        "productName": "realme Buds 2 Wired Headset  (Orange, In the Ear)", 
-        "categoryId": "1",
-        
-        "description": "realme buds2 wired earpjone",
-        
-        "price": 599,
-        
-        "is available": true, 
-        "productImg": "https://i.postimg.cc/598Shxh7/realme-buds-2-original-imafmkr2rhhjkjqc.webp",
-        
-        "rating": 4.3,
-        
-        "review": 74745,
-         "brand_name": "Realme",
-        
-        "warranty":1
-      },
-      {
-        "id":2,
-
-        "productName": "Mi Mi Dual Driver Dynamic Bass High Definition in-Ear Earphones with Mic Wired Headset  (Blue, In the Ear)", 
-        "categoryId": "1",
-        
-        "description": "Mi Mi Dual Driver Dynamic Bass High Definition in-Ear Earphones with Mic Wired Headset",
-        
-        "price": 699,
-        
-        "is available": true, 
-        "productImg": "https://i.postimg.cc/BbGSR5rv/xiaomi-dual-driver-original-imafpht84fa7fxdj.webp",
-        
-        "rating": 4.2,
-        
-        "review": 8241,
-         "brand_name": "Mi",
-        
-        "warranty":1
-      },
-      {
-        "id":3,
-
-        "productName": "Mivi Collar Classic Pro TWS Neckband with 72 Hours of Playtime & Fast charging Bluetooth Headset  (Grey, In the Ear)", 
-        "categoryId": "2",
-        
-        "description": "Mivi Collar Classic Pro TWS Neckband with 72 Hours of Playtime",
-        
-        "price": 1199,
-        
-        "is available": true, 
-        "productImg": "https://i.postimg.cc/nLBc2wWW/original-imagh8xzwfg7zzhh.webp",
-        
-        "rating": 4,
-        
-        "review": 6442,
-         "brand_name": "Mivi",
-        
-        "warranty":1
-      },
-      {
-        "id":4,
-
-        "productName": "realme Buds Wireless 2S with Dual Device Switching & Type C Fast Charge Bluetooth Headset  (Blue, In the Ear)", 
-        "categoryId": "2",
-        
-        "description": "realme Buds Wireless 2S with Dual Device Switching ",
-        
-        "price": 1419,
-        
-        "is available": true, 
-        "productImg": "https://i.postimg.cc/02t7pWsN/original-imaggezq4g7urfhk.webp",
-        
-        "rating": 4.1,
-        
-        "review": 6442,
-         "brand_name": "Realme",
-        
-        "warranty":1
-      }
-
-
-     
-    ]
-  
-  }
+  "products": [
+    {
+      "id": 3,
+      "productName": "Mivi Collar Classic Pro TWS Neckband with 72 Hours of Playtime & Fast charging Bluetooth Headset  (Grey, In the Ear)",
+      "categoryId": "2",
+      "description": "Mivi Collar Classic Pro TWS Neckband with 72 Hours of Playtime",
+      "price": 1199,
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/nLBc2wWW/original-imagh8xzwfg7zzhh.webp",
+      "rating": 4,
+      "review": 6442,
+      "brand_name": "Mivi",
+      "warranty": 1
+    },
+    {
+      "id": 4,
+      "productName": "realme Buds Wireless 2S with Dual Device Switching & Type C Fast Charge Bluetooth Headset  (Blue, In the Ear)",
+      "categoryId": "2",
+      "description": "realme Buds Wireless 2S with Dual Device Switching ",
+      "price": 1419,
+      "is available": true,
+      "productImg": "https://i.postimg.cc/02t7pWsN/original-imaggezq4g7urfhk.webp",
+      "rating": 4.1,
+      "review": 6442,
+      "brand_name": "Realme",
+      "warranty": 1
+    },
+    {
+      "id": "cec",
+      "productName": "c4",
+      "categoryId": "c4cc",
+      "description": "4c",
+      "price": 7777,
+      "is_available": "",
+      "productImg": "https://i.postimg.cc/k4NR3skg/cute-man-face-cartoon-cute-man-face-cartoon-vector-illustration-graphic-design-135024353-removebg-pr.png",
+      "rating": 4,
+      "review": "4c",
+      "brand_name": "44",
+      "warranty": "44"
+    }
+  ]
+}

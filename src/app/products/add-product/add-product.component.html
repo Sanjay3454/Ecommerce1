@@ -1,1 +1,35 @@
-<p>add-product works!</p>
+<form (ngSubmit)="addProduct()" [formGroup]="addProductForm" class="container form-control mt-3 mb-3 w-50">
+    
+    <label for="productId">Product Id:</label>
+    <input formControlName="id" type="text" id="productId" name="productId"><br><br>
+  
+    <label for="productName">Product Name:</label>
+    <input formControlName="productName" type="text" id="productName" name="productName"><br><br>
+    <label for="categoryId">Category ID:</label>
+    <input formControlName="categoryId" type="text" id="categoryId" name="categoryId"><br><br>
+    
+    <label for="description">Description:</label><br>
+    <textarea formControlName="description" id="description" name="description" rows="4" cols="50"></textarea><br><br>
+    
+    <label for="price">Price:</label>
+    <input formControlName="price" type="number" id="price" name="price"><br><br>
+    
+    <label for="productImg">Product Image:</label>
+    <input formControlName="productImg" type="text" id="productImg" name="productImg"><br><br>
+    
+    <label for="rating">Rating:</label>
+    <input formControlName="rating" type="number" id="rating" name="rating" min="1" max="5"><br><br>
+    
+    <label for="review">Review:</label><br>
+    <textarea formControlName="review" id="review" name="review" rows="4" cols="50"></textarea><br><br>
+    
+    <label for="brand_name">Brand Name:</label>
+    <input formControlName="brand_name" type="text" id="brand_name" name="brand_name"><br><br>
+    
+    <label for="warranty">Warranty:</label>
+    <input formControlName="warranty" type="text" id="warranty" name="warranty"><br><br>
+    
+    <label for="is_available">Is Available:</label>
+    <input formControlName=" is_available" type="checkbox" id="is_available" name="is_available"><br><br>
+    
+    <button type="submit" >submit</button></form>

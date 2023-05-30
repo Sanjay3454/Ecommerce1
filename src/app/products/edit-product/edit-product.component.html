@@ -1,1 +1,37 @@
-<p>edit-product works!</p>
+<form (ngSubmit)="updateProduct(updateProductForm)" class="container form-control mt-3 mb-3 w-50" #updateProductForm="ngForm">
+    
+    <label for="productId">Product Id:</label>
+    <input [(ngModel)]="pdata.id" type="text" id="productId" name="productId"><br><br>
+  
+    <label for="productName">Product Name:</label>
+    <input  [(ngModel)]="pdata.productName"  type="text" id="productName" name="productName"><br><br>
+    <label for="categoryId">Category ID:</label>
+    <input  [(ngModel)]="pdata.categoryId" type="text" id="categoryId" name="categoryId"><br><br>
+    
+    <label for="description">Description:</label><br>
+    <textarea  [(ngModel)]="pdata.description" id="description" name="description" rows="4" cols="50"></textarea><br><br>
+    
+    <label for="price">Price:</label>
+    <input  [(ngModel)]="pdata.price" type="number" id="price" name="price"><br><br>
+    
+    <label for="is_available">Is Available:</label>
+    <input  [(ngModel)]="pdata.is_available" type="checkbox" id="is_available" name="is_available"><br><br>
+
+    <label for="productImg">Product Image:</label>
+    <input  [(ngModel)]="pdata.productImg"  type="text" id="productImg" name="productImg"><br><br>
+    
+    <label for="rating">Rating:</label>
+    <input  [(ngModel)]="pdata.rating" type="number" id="rating" name="rating" min="1" max="5"><br><br>
+    
+    <label for="review">Review:</label><br>
+    <textarea  [(ngModel)]="pdata.review"  id="review" name="review" rows="4" cols="50"></textarea><br><br>
+    
+    <label for="brand_name">Brand Name:</label>
+    <input  [(ngModel)]="pdata.brand_name" type="text" id="brand_name" name="brand_name"><br><br>
+    
+    <label for="warranty">Warranty:</label>
+    <input  [(ngModel)]="pdata.warranty" type="text" id="warranty" name="warranty"><br><br>
+    
+   
+    
+    <button  type="submit" >submit</button></form>

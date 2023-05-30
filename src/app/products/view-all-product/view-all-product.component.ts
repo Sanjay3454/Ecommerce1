@@ -10,12 +10,20 @@ export class ViewAllProductComponent implements OnInit {
   productData:any
   filterCategory:any
 
+  searchString:any=''
+
   constructor(private ps:ProductService){}
 
-ngOnInit():void{
+ ngOnInit():void{
   this.ps.ViewAllProduct().subscribe((data:any)=>
   {
     this.productData = data;
+  })
+
+
+  //access data from behaviour subject 
+  this.ps.search.subscribe((data:any)=>{
+    this.searchString = data;
   })
 }
 

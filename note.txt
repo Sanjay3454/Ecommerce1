@@ -6,7 +6,7 @@ npm - node package manager  npm -v
            -npm i -g @angular/cli@latest    ng v 
 
      project creation 
-           -ng new projectname 
+           -ng new projectname      
 
     running command 
           -ng serve --open  ng s -o 
@@ -159,7 +159,6 @@ npm - node package manager  npm -v
                             -controller               
 
 
-
       Local storage in angular
       ------------------------                    
       C - localStorage.setItem()
@@ -216,7 +215,7 @@ npm - node package manager  npm -v
 
       promise - then()
                - catch()
-asynchronous in ts               library - rxjs {reactive extension for js}
+     asynchronous in ts               library - rxjs {reactive extension for js}
     
       observable -subscribe()
                  - catch()
@@ -272,5 +271,12 @@ propName=filter applying property in data
 
 Data sharing from module to module
 ---------------------------------
-Behaviour Subject -rxjs
-reactive extension for js
+Behaviour Subject -rxjs  - every method will be asynchronous in this rxjs library 
+reactive extension for js 
+
+1.import behaviour subject 
+2.create an object of behavior subject 
+3. send the data using next method
+4. 4- access data using subscribe
+
+
